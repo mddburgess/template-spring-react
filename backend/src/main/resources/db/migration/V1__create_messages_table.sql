@@ -1,6 +1,6 @@
 CREATE TABLE messages (
     id INTEGER NOT NULL AUTO_INCREMENT,
-    message TEXT NOT NULL,
+    message VARCHAR(255) NOT NULL,
     PRIMARY KEY (id)
 );
 

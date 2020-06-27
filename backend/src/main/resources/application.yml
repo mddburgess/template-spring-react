@@ -9,3 +9,15 @@ spring:
     password:
     schemas: spring_react
     clean-disabled: true
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        show_sql: false
+  main:
+    banner-mode: "off"
+  test:
+    database:
+      replace: none
