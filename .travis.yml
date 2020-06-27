@@ -1,5 +1,8 @@
 language: java
 
+services:
+  - mysql
+
 before_cache:
   - rm -rvf $HOME/.m2/repository/dev/mikeburgess
 
